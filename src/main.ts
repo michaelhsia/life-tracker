@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import PrimeVue from 'primevue/config';
 import Menubar from 'primevue/menubar';
 
-import './assets/style.css'
+import './assets/main.scss'
 import App from './App.vue'
 
 const app = createApp(App)
