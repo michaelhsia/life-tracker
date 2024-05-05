@@ -1,24 +1,18 @@
 <script lang="ts" src="./Header.ts"></script>
 
 <template>
-  <div class="text-align-left w-">
+  <div>
     <ul>
-      <li><a href="#">首頁</a></li>
-      <li><a href="#">旅遊地點</a></li>
-      <li><a href="#">推薦遊戲</a></li>
+      <li><router-link to="/">首頁</router-link></li>
+      <li><router-link to="/location">旅遊地點</router-link></li>
+      <li><router-link to="/game">推薦遊戲</router-link></li>
     </ul>
   </div>
-  {{ msg }}
-  <input type="text" v-model="msg">
 </template>
 
 
 
 <style scoped>
-.text-align-left {
-  margin-right: auto;
-}
-
 ul {
   list-style: none;
   display: flex;
