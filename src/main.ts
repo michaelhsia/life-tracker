@@ -26,4 +26,3 @@ app.component('MeterGroup', MeterGroup)
 app.mount('#app')
 
 
-createApp(App).mount('#app')
